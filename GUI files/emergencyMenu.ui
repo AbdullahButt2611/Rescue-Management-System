@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1022</width>
+     <height>713</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+
+background-color: rgb(0, 51, 0);
+color: rgb(0,255,0);
+
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>581</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 36pt &quot;Arial Black&quot;;
+color: rgb(255, 213, 0);</string>
+    </property>
+    <property name="text">
+     <string>Emergency Calls</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addBtn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>240</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.498, y1:0, x2:0.507, y2:1, stop:0 rgba(0, 85, 0, 255), stop:1 rgba(0, 255, 0, 255));
+border-radius:15px;
+color: #FFF;
+	font: 75 14pt &quot;Microsoft PhagsPa&quot;;
+
+}
+
+QPushButton:hover{
+
+	background-color: rgb(0, 118, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Request</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updateBtn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>400</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.498, y1:0, x2:0.507, y2:1, stop:0 rgba(0, 85, 0, 255), stop:1 rgba(0, 255, 0, 255));
+border-radius:15px;
+color: #FFF;
+	font: 75 14pt &quot;Microsoft PhagsPa&quot;;
+
+}
+
+QPushButton:hover{
+
+	background-color: rgb(0, 118, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Hospital</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delBtn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>320</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.498, y1:0, x2:0.507, y2:1, stop:0 rgba(0, 85, 0, 255), stop:1 rgba(0, 255, 0, 255));
+border-radius:15px;
+color: #FFF;
+	font: 75 14pt &quot;Microsoft PhagsPa&quot;;
+
+}
+
+QPushButton:hover{
+
+	background-color: rgb(0, 118, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Death Certificate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchBtn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>480</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.498, y1:0, x2:0.507, y2:1, stop:0 rgba(0, 85, 0, 255), stop:1 rgba(0, 255, 0, 255));
+border-radius:15px;
+color: #FFF;
+	font: 75 14pt &quot;Microsoft PhagsPa&quot;;
+
+}
+
+QPushButton:hover{
+
+	background-color: rgb(0, 118, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Display Hospital</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>560</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.512, y1:0.238636, x2:0.493, y2:1, stop:0 rgba(170, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));
+border-radius:15px;
+color: #FFF;
+	font: 75 14pt &quot;Microsoft PhagsPa&quot;;
+
+}
+
+QPushButton:hover{
+
+	background-color: rgb(138, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>590</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 20pt &quot;Bahnschrift Light&quot;;
+color: rgb(234, 234, 0);</string>
+    </property>
+    <property name="text">
+     <string>AYB Corporation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>580</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/—Pngtree—red and black logo_5517319.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="mainLogo.qrc">:/newPrefix/—Pngtree—red and black logo_5517319.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>630</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 12pt &quot;Bahnschrift Light&quot;;
+color: rgb(0, 208, 208);</string>
+    </property>
+    <property name="text">
+     <string>Copyrights | 2021</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>201</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+
+border: 4px solid rgb(255, 255, 0);
+border-radius: 100px;
+	background-color: rgb(0, 42, 0);
+
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="requestLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>161</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+font: 75 47pt &quot;Magneto&quot;;
+color: rgb(245, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>00</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>340</y>
+      <width>201</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+
+border: 4px solid rgb(76, 230, 230);
+border-radius: 100px;
+	background-color: rgb(0, 42, 0);
+
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="workersLabel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>161</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+font: 53pt &quot;Eras Bold ITC&quot;;
+color: rgb(255, 217, 0);</string>
+     </property>
+     <property name="text">
+      <string>00</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+font: 87 10pt &quot;Arial Black&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Pending Requests</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>280</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+font: 87 10pt &quot;Arial Black&quot;;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Workers Available</string>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>addBtn</zorder>
+   <zorder>updateBtn</zorder>
+   <zorder>delBtn</zorder>
+   <zorder>searchBtn</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="mainLogo.qrc"/>
+  <include location="mainLogo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
