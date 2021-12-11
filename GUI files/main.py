@@ -36,6 +36,8 @@ class SplashScreen(QMainWindow):
 
         self.timer.start(35)
 
+
+
         self.show()
 
     def progress(self):

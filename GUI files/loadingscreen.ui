@@ -159,7 +159,7 @@ color: rgb(0, 170, 0);</string>
  </widget>
  <resources>
   <include location="mainLogo.qrc"/>
-  <include location="../../../../DS/Final Project/Rejected/Logo/mainLogo.qrc"/>
+  <include location="mainLogo.qrc"/>
  </resources>
  <connections/>
 </ui>
